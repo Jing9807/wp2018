@@ -1,1 +1,17 @@
-img #eggplant{border-radius:50%; }
+img#eggplant{height:300px;
+             width:280px;
+              border-radius:60%; 
+            }
+
+            
+            img.star{height:100px;
+                     width:300px;
+            
+                   }
+                  img.heart{
+                        height:50px;
+                        width:60px;
+                        position: absolute;
+                         top: 8px;
+                         right: 16px;
+                   }
