@@ -5,6 +5,12 @@ $( document ).ready(function() {
     $(".ingredient#eggplant").click(()=>{
       // click event
       console.log("click")
-      $(".check").toggle()
+       $(".check#check1").toggle()
     })
+$(".ingredient#chili").click(()=>{
+      // click event
+      console.log("click")
+         $(".check#check2").toggle()
+    })
+
 });

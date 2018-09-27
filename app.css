@@ -15,10 +15,19 @@ img#eggplant{height:300px;
                          top: 8px;
                           right: 10px;
                 }
-                .check img{
-                    height : 50px;
-                      width : 50px;
-                        position: relative;
-                          top: -223px;
-                            left: 190px;
-                          }
+                  .check  img{
+                    height :10%;
+                     width :10%;
+                    position: relative;
+                    top: -150px;
+                    left: 50px;
+                          
+                        }
+
+                      
+              .ingredient img{
+                  height:130px;
+                  width:150px;
+                  border-radius:60%;
+
+               }        
