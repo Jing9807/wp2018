@@ -13,5 +13,12 @@ img#eggplant{height:300px;
                         width:60px;
                         position: absolute;
                          top: 8px;
-                         right: 16px;
-                   }
+                          right: 10px;
+                }
+                .check img{
+                    height : 50px;
+                      width : 50px;
+                        position: relative;
+                          top: -223px;
+                            left: 190px;
+                          }
