@@ -18,13 +18,13 @@ img#eggplant{height:300px;
                          top: 8px;
                           right:350px;
                 }
- img.icon{
-                        height:50px;
-                        width:60px;
-                        position: absolute;
-                         top: 8px;
-                          right:1100px;
-                }
+img.icon{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 250px;
+  top: 0px;
+}
                 h1{
                  position: relative;
                  top: 40px;

@@ -1,22 +1,26 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
-    console.log( "ready!" );
     $(".check").hide()
-       $("#eggplant").click(()=>{
-      // click event
-      console.log("click")
-       $(".ingredient").toggle(
-            $(".check").hide())
-      // $(this).flip()
-    })
-       $(".icon").click(()=>{
-      // click event
-      console.log("click")
-       $(".ingredient").toggle(
-            $(".check").hide())
-      // $(this).flip()
-    })
+    $("img.icon").hide()
 
+    $("#eggplant").click(()=>{
+      // click event
+      console.log("click")
+       $(".ingredient").toggle()
+      $(".check").hide()
+        $("img.icon").toggle()
+       $("#eggplant").hide()
+      // $(this).flip()
+    })
+   $("img.icon").click(()=>{
+      // click event
+      console.log("click")
+       $(".ingredient").toggle()
+      $(".check").hide()
+     $("#eggplant").toggle()
+     $("img.icon").hide()
+      // $(this).flip()
+    })
     $(".ingredient#eggplant").click(()=>{
       // click event
       console.log("click")
